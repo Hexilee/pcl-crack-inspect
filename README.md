@@ -4,7 +4,7 @@
 
 `python3`、`numpy` 和 `python-pcl`
 
-安装
+安装（macOS）
 
 ```bash
 brew install python3 &&
@@ -24,7 +24,12 @@ python3 setup.py install
 
 - 载入 `xyz` 文件
 - 通过 `numpy.array` 和 `pcl.PointCloud` 生成点云对象
-- 分割并配置参数生成模型
-- 机器学习检测漏洞
+- 分割、去噪并配置参数生成模型
+- 机器学习检测裂缝
 
+#### 运行
+
+```bash
+python3 src/main.py <xyz-file>
+```
 
